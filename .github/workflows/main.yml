@@ -11,7 +11,7 @@ on:
     branches: [ main ]
   
   schedule:
-  # 定时任务，每5分钟运行一次
+  # 定时任务，每2分钟运行一次
     - cron: '*/2 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
